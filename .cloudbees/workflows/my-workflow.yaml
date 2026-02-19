@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
-          labels: newsman
+          labels: newsmantest
           artifact-id: 047cf5ae-4660-4727-b220-e94da9a1f700
           target-environment: aspm-prod
